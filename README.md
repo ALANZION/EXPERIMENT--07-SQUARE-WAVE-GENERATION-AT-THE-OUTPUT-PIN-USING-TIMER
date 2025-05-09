@@ -230,7 +230,7 @@ static void MX_TIM2_Init(void)
 
 FOR PULSE AT 500
 ![Screenshot 2025-05-05 092021](https://github.com/user-attachments/assets/6fa1a979-0ece-49d8-9d64-fc58178b3b7c)
-
+```
 TON = 3 x 10 x 10^-6 = 0.00003
 TOFF= 3 x 10 x 10^-6 = 0.00003
 TOTAL TIME = TON + TOFF  
@@ -244,9 +244,10 @@ DUTY CYCLE = TON / TON+TOFF
            = 0.5
       IN % = 0.5 x 100
            = 50 %
+```
 FOR PULSE AT 700
 ![Screenshot 2025-05-05 095747](https://github.com/user-attachments/assets/665eae17-dafa-4f0e-bb33-db3cd19b865a)
-
+```
 TON = 4 x 10 x 10^-6 = 0.00004
 TOFF= 2 x 10 x 10^-6 = 0.00002
 TOTAL TIME = TON + TOFF  
@@ -260,10 +261,10 @@ DUTY CYCLE = TON / TON+TOFF
            = 0.7
       IN % = 0.7 x 100
            = 70 %
-
+```
 FOR PULSE AT 250
 ![Screenshot 2025-05-05 100147](https://github.com/user-attachments/assets/bc8b0afa-5e2f-41b9-8001-d7d6bf2f2eb3)
-
+```
 TON = 1 x 10 x 10^-6 = 0.00001
 TOFF= 2 x 10 x 10^-6 = 0.00002
 TOTAL TIME = TON + TOFF  
