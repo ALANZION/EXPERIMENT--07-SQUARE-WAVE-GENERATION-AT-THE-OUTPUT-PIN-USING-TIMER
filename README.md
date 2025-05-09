@@ -227,7 +227,7 @@ static void MX_TIM2_Init(void)
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
-```
+
 FOR PULSE AT 500
 ![Screenshot 2025-05-05 092021](https://github.com/user-attachments/assets/6fa1a979-0ece-49d8-9d64-fc58178b3b7c)
 
