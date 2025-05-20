@@ -248,36 +248,35 @@ DUTY CYCLE = TON / TON+TOFF
 FOR PULSE AT 700
 ![Screenshot 2025-05-05 095747](https://github.com/user-attachments/assets/665eae17-dafa-4f0e-bb33-db3cd19b865a)
 ```
-TON = 4 x 10 x 10^-6 = 0.00004
-TOFF= 2 x 10 x 10^-6 = 0.00002
-TOTAL TIME = TON + TOFF  
-           = 0.00004 + 0.00002
+TON = 4.5 * 10 * 10^-6
+    = 0.000045
+TOFF= 1.5 * 10 * 10^-6
+    = 0.000015
+TOTAL TIME = TON + TOFF
            = 0.00006
 FREQUENCY = 1/(TOTAL TIME)
-          = 1/0.00006
-          = 16666.7
-DUTY CYCLE = TON / TON+TOFF
-           = 0.00004 / 0.00006
-           = 0.7
-      IN % = 0.7 x 100
-           = 70 %
+          = 16666.666666666
+DUTY CYCLE = TON/(TON+TOFF)
+           = 0.75
+DUTY CYCLE (IN PERCENTAGE) = 0.75 * 100
+           = 75%
 ```
 FOR PULSE AT 250
 ![Screenshot 2025-05-05 100147](https://github.com/user-attachments/assets/bc8b0afa-5e2f-41b9-8001-d7d6bf2f2eb3)
 ```
-TON = 1 x 10 x 10^-6 = 0.00001
-TOFF= 2 x 10 x 10^-6 = 0.00002
-TOTAL TIME = TON + TOFF  
-           = 0.00001 + 0.00002
-           = 0.00003
+TON = 1.5 * 10 * 10^-6
+    = 0.000015
+TOFF= 4.5 * 10 * 10^-6
+    = 0.000045
+TOTAL TIME = TON + TOFF
+           = 
 FREQUENCY = 1/(TOTAL TIME)
-          = 1/0.00003
-          = 33333.33
-DUTY CYCLE = TON / TON+TOFF
-           = 0.00001 / 0.00003
-           = 0.3
-      IN % = 0.3 x 100
-           = 30 % 
+          = 0.00006
+DUTY CYCLE = TON/(TON+TOFF)
+           = 0.000015/(0.00006)
+           = 0.25
+DUTY CYCLE (IN PERCENTAGE) = 0.25 * 100 
+           = 25%
 ```
 
 ## Result :
